@@ -1,0 +1,77 @@
+.contenedor{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+    border: solid 1px rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px #000;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    
+
+
+}
+.nombre{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 5px;
+    text-decoration: none;
+}
+.imagen{
+    background-color: bisque;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    text-decoration: none;
+ }
+
+.descripcion{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    height: 70px;
+    margin: 5px auto;
+    overflow: hidden;
+    text-decoration: none;
+}
+.priority{
+    color: black;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    border: solid 1px black;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+.boton{
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    border: none;
+   float: right;
+   text-decoration: none;
+   margin: 12px;
+    
+}
+.botonActualizar{
+    background-color: rgb(255, 174, 0);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    
+    margin: 5px auto;
+    text-decoration: none;
+}

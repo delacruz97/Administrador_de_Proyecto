@@ -1,0 +1,26 @@
+.card{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 230px); /*tamaños de columnas*/
+  gap: 40px; /*separacion de las card*/
+  padding: 40px; /*separacion de los bordes*/
+  justify-content: center; /*centrar a las card*/
+  justify-items: center; /*centrar a las card*/
+  margin: auto;
+  text-decoration: none;
+
+
+
+}
+.center{
+  text-align: center;
+}
+
+
+
+/*para que se adapte a la pantalla de celular*/
+@media(max-width: 560px){
+  .card{
+    grid-template-columns: 100%;
+
+  }
+}
